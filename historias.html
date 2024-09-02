@@ -6,29 +6,69 @@
     <title>video de youtube</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.o">
     <link rel="stylesheet" href="css/estilo.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
+   
+     <meta charset="utf-8" />  
+    <title>Video de YouTube</title>  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Corrección en el valor '1.0' -->  
+    <link rel="stylesheet" href="css/estilo.css">  
 
-        iframe {
-            width: 100%; /* Ajusta para que ocupe todo el ancho del contenedor */
-            height: 400px; /* Ajusta la altura según sea necesario */
-            border: none;
-        }
-    </style>
-</head>
-<body>
-    <h1>Video de YouTube</h1>
-    <p>A continuación se muestra un video de YouTube:</p>
+    <style>  
+        body {  
+            font-family: Arial, sans-serif;  
+            margin: 0;  
+            padding: 20px;  
+            background-color: #f4f4f4;  
+        }  
 
-    <!-- Video insertado -->
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/T5XLMphT5Aw?si=OlQPBZzSJIOCPO2T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        nav {  
+            background-color: #0e27b9; /* Color de fondo del menú */  
+            padding: 10px; /* Espaciado interno */  
+        }  
 
-    <p>Más información sobre el video.</p>
+        nav ul {  
+            list-style-type: none; /* Sin viñetas */  
+            padding: 0; /* Sin padding */  
+        }  
 
-</body>
-</html>
+        nav ul li {  
+            display: inline; /* Mostrar elementos en línea */  
+            margin-right: 20px; /* Espaciado entre elementos */  
+        }  
+
+        nav ul li a {  
+            color: white; /* Color del texto */  
+            text-decoration: none; /* Sin subrayado */  
+        }  
+
+        nav ul li a:hover {  
+            text-decoration: underline; /* Subrayar al pasar el mouse */  
+        }  
+
+        iframe {  
+            width: 100%; /* Ajuste al 100% del ancho del contenedor */  
+            height: 400px; /* Altura del iframe */  
+            border: none; /* Sin borde */  
+        }  
+    </style>  
+
+</head>  
+<body>  
+    <nav>  
+        <ul>  
+            <li><a href="index.html">Inicio</a></li>  
+            <li><a href="tematica.html">Temática</a></li>  
+            <li><a href="acerca.html">Acerca de</a></li>  
+            <li><a href="contacto.html">Contacto</a></li>  
+            <li><a href="historias.html">Historias</a></li>  
+        </ul>  
+    </nav>  
+
+    <h1>Video de YouTube</h1>  
+    <p>A continuación se muestra un video de YouTube:</p>  
+
+    <!-- Video insertado -->  
+    <iframe src="https://www.youtube.com/embed/T5XLMphT5Aw?si=OlQPBZzSJIOCPO2T" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+
+    <p>Más información sobre el video.</p>  
+</body>  
+</html>  
