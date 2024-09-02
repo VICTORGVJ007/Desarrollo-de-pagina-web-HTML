@@ -1,0 +1,99 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #0033a0;
+    color: white;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+    nav ul li {
+        display: inline;
+        margin-right: 10px;
+    }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+.bandera {
+    text-align: center;
+    padding: 2em 0;
+    background: #f0f0f0;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1em;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+    .card img {
+        max-width: 100%;
+        height: auto;
+    }
+
+footer {
+    background: #0033a0;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+    form label {
+        display: block;
+        margin-top: 1em;
+    }
+
+    form input, form textarea {
+        width: 100%;
+        padding: 0.5em;
+        margin-top: 0.5em;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    form button {
+        margin-top: 1em;
+        padding: 0.7em;
+        background: #0033a0;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        form button:hover {
+            background: #002080;
+        }
+        h1{
+            font-family:'Times New Roman',sans-serif
+        }
+        h2 {
+           font-family: 'Times New Roman',sans-serif
+        }
