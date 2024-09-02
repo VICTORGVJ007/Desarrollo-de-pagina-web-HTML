@@ -88,12 +88,32 @@ form {
         cursor: pointer;
     }
 
-        form button:hover {
-            background: #002080;
+    form button:hover {
+         background: #002080;
+    }
+    h1{
+         font-family:'Times New Roman',sans-serif
+    }
+    h2 {
+         font-family: 'Times New Roman',sans-serif
+    }
+   table {
+         width: 100%;
+         border-collapse: collapse;
+         margin: 20px 0;
         }
-        h1{
-            font-family:'Times New Roman',sans-serif
-        }
-        h2 {
-           font-family: 'Times New Roman',sans-serif
-        }
+
+   th, td {
+         border: 1px solid #ccc;
+         padding: 10px;
+         text-align: left;
+    }
+
+   th {
+         background-color: #0033a0;
+         color: white;
+   }
+
+   tbody tr:nth-child(even) {
+         background-color: #f2f2f2;
+   }
